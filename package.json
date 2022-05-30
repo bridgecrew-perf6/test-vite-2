@@ -1,0 +1,19 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "serve": "vite preview --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.7",
+    "vite": "^2.9.0"
+  },
+  "dependencies": {
+    "three": "^0.139.2",
+    "three-css3drenderer": "^1.0.1",
+    "three.interaction": "^0.2.3"
+  }
+}
